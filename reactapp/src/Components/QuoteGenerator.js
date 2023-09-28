@@ -52,8 +52,10 @@ const QuoteGenerator = () => {
       >
         Surprise Me
       </button>
-      <div id="button-line"></div> 
+      <br>
+      </br>
       <br></br>
+      <div id="button-line"></div> 
     </div>
   );
 };
