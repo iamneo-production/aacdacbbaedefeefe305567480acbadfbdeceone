@@ -1,17 +1,15 @@
-/* src/components/QuoteGenerator.css */
 
-/* Style the container for the entire content */
 .quote-container {
     background-color: white;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 20px auto;
-    width: 60%; /* Adjust the width as needed */
+    width: 60%; 
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Style the "Surprise Me" button */
+  
   #new-quote {
     background-color: lightblue;
     border: none;
@@ -20,19 +18,19 @@
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
-    width: auto; /* Reset the width to its default size */
+    width: auto; 
   }
   
-  /* Hover effect for the button */
+  
   #new-quote:hover {
     background-color: #6fa5d4;
     color: white;
   }
   
-  /* Add a blue line below the button */
+
   #button-line {
     background-color: lightblue;
-    height: 3px; /* Adjust the height of the line as needed */
-    width: 100%; /* Make the line as wide as the container */
+    height: 3px; 
+    width: 100%; 
   }
   

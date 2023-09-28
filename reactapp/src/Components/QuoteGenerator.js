@@ -1,4 +1,3 @@
-// src/components/QuoteGenerator.js
 
 import React, { useState, useEffect } from 'react';
 import './QuoteGenerator.css'; // Import your custom CSS file
@@ -31,7 +30,7 @@ const QuoteGenerator = () => {
 
   useEffect(() => {
     displayRandomQuote();
-  }, []); // Empty dependency array to run this effect only once when the component mounts
+  }, []); 
 
   const handleNewQuoteClick = () => {
     displayRandomQuote();

@@ -1,25 +1,20 @@
-/* src/App.css */
 
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
-/* Style the container for the quote and author */
-/* src/components/QuoteGenerator.css */
-
-/* Set the background of the entire page to black */
 body {
   background-color: black;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Ensure the page takes up the full viewport height */
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
 }
 
-/* Style the container for the entire content */
+
 .quote-container {
   background-color: white;
   border: 1px solid #ddd;
@@ -27,24 +22,20 @@ body {
   width: 80%;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center text within the container */
+  text-align: center; 
 }
 
-/* Rest of the CSS remains the same */
 
-
-/* Style the quote text */
 #quote {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-/* Style the author text */
+
 #author {
   font-size: 1rem;
 }
 
-/* Style the "Surprise Me" button */
 #new-quote {
   background-color: lightblue;
   border: none;
@@ -55,7 +46,6 @@ body {
   margin-top: 20px;
 }
 
-/* Hover effect for the button */
 #new-quote:hover {
   background-color: #6fa5d4;
   color: white;
