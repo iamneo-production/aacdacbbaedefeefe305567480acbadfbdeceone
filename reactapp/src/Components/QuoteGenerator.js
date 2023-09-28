@@ -1,4 +1,7 @@
+// src/components/QuoteGenerator.js
+
 import React, { useState, useEffect } from 'react';
+import './QuoteGenerator.css'; // Import your custom CSS file
 
 const QuoteGenerator = () => {
   const [quote, setQuote] = useState('loading');
@@ -35,7 +38,7 @@ const QuoteGenerator = () => {
   };
 
   return (
-    <div>
+    <div className="quote-container"> {/* Add a class for styling */}
       <h1>Random Quote Generator</h1>
       <div id="quote">
         {quote}
